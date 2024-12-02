@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 class EditStudentActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_edit)
+        setContentView(R.navigation.nav_graph.)
 
         val editHoten = findViewById<EditText>(R.id.edit_hoten)
         val editMssv = findViewById<EditText>(R.id.edit_mssv)

@@ -1,0 +1,15 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.example.studentmanager.StudentListFragment"
+        android:label="Danh sách sinh viên" />
+
+    <fragment
+        android:id="@+id/addEditStudentFragment"
+        android:name="com.example.studentmanager.AddEditStudentFragment"
+        android:label="Thêm/Chỉnh sửa sinh viên" />
+</navigation>
